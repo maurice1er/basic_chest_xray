@@ -1,4 +1,19 @@
+### Résultats
 
+<<L'erreur est humaine>> dit-on; mais l'erreur medicale peut être fatale pour un patient.
+Aujourd'hui, l'IA a le potentiel de révolutionner le diagnostic et la gestion des maladies en effectuant une classification difficile pour les experts humains et en examinant rapidement d'immenses quantités d'images.
+Ecrivez un algorithme d'apprentissage coorespondant à ce contexte
+
+![Lien Kaggle de la dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+
+### Prérequis
+- Bonne comprehension du langage Python
+- Notion en calcul matriciel
+- Notion en deep learning (optionnel)
+
+------
+
+### Importations des bibliothèques
 
 ```python
 # piptorchvisionll albumentations==0.4.6
@@ -261,7 +276,7 @@ def entrainement(iteration, epochs, dataloader, model):
 #END
 ```
 
-NB: Pour l'entrainement du modele, je prendrai le dataloader du Test pour des raisons de ressources(memoire)
+NB: Pour l'entrainement du modele, j'ai pris le dataloader du Test pour des raisons de ressources(memoire) aussi le dossier contenant le sous dossier Train, Test et Val doit se nommé *chest_xray_20210414* ou le path au niveau de la class PneumoniaDataset
 
 
 ```python
@@ -278,6 +293,7 @@ entrainement(iteration=4, epochs=epochs, dataloader=test_dataload, model=modelFa
 
 ### Test
 
+- en cours
 
 ```python
 
@@ -289,6 +305,8 @@ entrainement(iteration=4, epochs=epochs, dataloader=test_dataload, model=modelFa
 ```
 
 ### Evaluate
+
+- en cours
 
 
 ```python
