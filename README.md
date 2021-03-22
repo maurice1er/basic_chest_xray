@@ -265,10 +265,7 @@ epochs = 7
 entrainement(iteration=4, epochs=epochs, dataloader=test_dataload, model=modelFake)
 ```
 
-
-```python
-
-```
+![Result Image](images/metric_predict_chest_xray.png)
 
 
 ```python
