@@ -130,6 +130,11 @@ test_dataload = dataload(test_dataset, sFle=True)
 val_dataload = dataload(val_dataset, bSize=2, sFle=False)
 ```
 
+### Modele
+
+
+- Création du modèle
+
 
 ```python
 class PneumoniaFakeModel(Module):
@@ -168,7 +173,6 @@ class PneumoniaFakeModel(Module):
         return F.log_softmax(x, dim=1)
 ```
 
-### Modele
 
 - Choix du device
 
