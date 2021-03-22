@@ -2,9 +2,8 @@
 
 <<L'erreur est humaine>> dit-on; mais l'erreur medicale peut être fatale pour un patient.
 Aujourd'hui, l'IA a le potentiel de révolutionner le diagnostic et la gestion des maladies en effectuant une classification difficile pour les experts humains et en examinant rapidement d'immenses quantités d'images.
-Ecrivez un algorithme d'apprentissage coorespondant à ce contexte
-
-![Lien Kaggle de la dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+<div style="color:red;">Ecrivez un algorithme d'apprentissage coorespondant à ce contexte</div>
+<a href="https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia" title="link to google">Lien Kaggle de la dataset</a>
 
 ### Prérequis
 - Bonne comprehension du langage Python
