@@ -9,6 +9,10 @@ Aujourd'hui, l'IA a le potentiel de révolutionner le diagnostic et la gestion d
 - Bonne comprehension du langage Python
 - Notion en calcul matriciel
 - Notion en deep learning (optionnel)
+- 
+### Author
+- Name : Armel DREY
+- Email: armeldrey@gmail.com
 
 ------
 
